@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Romi from "./pages/Romi";
 import AtillaPage from "./pages/AtillaPage";
 import Syuhda from "./pages/Syuhda";
+import Daniel from "./pages/Daniel";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/romi" element={<Romi />} />
         <Route path="/atilla" element={<AtillaPage />} />
         <Route path="/arham" element={<Arham />} />
+        <Route path="/daniel" element={<Daniel />} />
         <Route path="/syuhda" element={<Syuhda />} />
       </Routes>
     </BrowserRouter>
