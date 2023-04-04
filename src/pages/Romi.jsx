@@ -1,14 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Homepage from "../components/Homepage";
 
-function Home() {
+function Romi() {
   return (
     <Container>
-      <Homepage />
-      <Romi />
+      <div>
+        <h1>Ini Pages Romi</h1>
+      </div>
     </Container>
   );
 }
 
-export default Home;
+export default Romi;
