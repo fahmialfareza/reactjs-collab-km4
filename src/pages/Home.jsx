@@ -6,7 +6,6 @@ function Home() {
   return (
     <Container>
       <Homepage />
-      <Romi />
     </Container>
   );
 }
