@@ -7,7 +7,6 @@ function Home() {
   return (
     <Container>
       <Homepage />
-      <Arham />
     </Container>
   );
 }
