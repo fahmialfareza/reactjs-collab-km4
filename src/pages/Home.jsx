@@ -6,7 +6,7 @@ import Arham from "./Arham";
 function Home() {
   return (
     <Container>
-      <Homepage />
+      <Homepage/>
       <Arham />
     </Container>
   );
