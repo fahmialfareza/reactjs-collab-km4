@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Romi from "./pages/Romi";
 import AtillaPage from "./pages/AtillaPage";
 import Syuhda from "./pages/Syuhda";
+import Imran from "./pages/Imran";
 import UserLists from "./pages/UserLists";
 import DetailsUser from "./pages/DetailsUser";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/atilla" element={<AtillaPage />} />
         <Route path="/arham" element={<Arham />} />
         <Route path="/syuhda" element={<Syuhda />} />
+        <Route path="/imran" element={<Imran />} />
         <Route path="/user-lists" element={<UserLists />} />
         <Route path="/users/:id" element={<DetailsUser />} />
       </Routes>
